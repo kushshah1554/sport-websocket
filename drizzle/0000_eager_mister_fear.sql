@@ -22,8 +22,8 @@ CREATE TABLE "matches" (
 	"status" "match_status" DEFAULT 'scheduled' NOT NULL,
 	"start_time" timestamp,
 	"end_time" timestamp,
-	"home_score" text DEFAULT 0 NOT NULL,
-	"away_score" text DEFAULT 0 NOT NULL,
+	"home_score" integer DEFAULT 0 NOT NULL,
+	"away_score" integer DEFAULT 0 NOT NULL,
 	"created_at" timestamp DEFAULT now() NOT NULL
 );
 --> statement-breakpoint
