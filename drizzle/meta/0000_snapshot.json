@@ -1,5 +1,5 @@
 {
-  "id": "f9c3a2dc-2ff4-4271-8c92-03647d5aab15",
+  "id": "c2af8457-2aab-414a-a795-a7d9c7583821",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -154,14 +154,14 @@
         },
         "home_score": {
           "name": "home_score",
-          "type": "text",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true,
           "default": 0
         },
         "away_score": {
           "name": "away_score",
-          "type": "text",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true,
           "default": 0
