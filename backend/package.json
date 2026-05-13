@@ -1,0 +1,37 @@
+{
+  "name": "livescore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npm install",
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "demo": "node src/crud-demo.js", 
+    "seed": "node src/seed/seed.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@arcjet/inspect": "^1.4.0",
+    "@arcjet/node": "^1.4.0",
+    "apminsight": "^5.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.2.1",
+    "pg": "^8.20.0",
+    "save": "^2.9.0",
+    "ws": "^8.20.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10"
+  }
+}
